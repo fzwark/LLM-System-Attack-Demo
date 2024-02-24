@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="LLM Sytem Securty">
+  <meta property="og:title" content="LLM Sytem Securty"/>
+  <meta property="og:description" content="LLM Sytem Securty Demo"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>LLM Sytem Security</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">A New Era in LLM Security: Exploring Security Concerns in Real-World LLM-based Systems</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://fzwark.github.io/LLM-System-Attack-Demo/" target="_blank">Fangzhou Wu</a>,
+                </span>
+                <!-- <sup>*</sup>,</span> -->
+                <span class="author-block">
+                  <a href="https://cybersecurity.seas.wustl.edu/ning/index.html" target="_blank">Ning Zhang</a>,</span>
+                  <span class="author-block">
+                    <a href="https://pages.cs.wisc.edu/~jha/" target="_blank">Somesh Jha</a>,
+                  </span>
+      
+                  <span class="author-block">
+                    <a href="https://patrickmcdaniel.org/" target="_blank">Patrick McDaniel</a>,
+                  </span>
+
+                  <span class="author-block">
+                    <a href="https://xiaocw11.github.io/" target="_blank">Chaowei Xiao</a>
+                  </span>
+                  </div>
+
+                  <!-- <div class="is-size-5 publication-authors">
+                    <span class="author-block">Institution Name<br>Conferance name and year</span>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                  </div> -->
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link -->
+                    <!-- <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span> -->
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/llmsystem1/llm-system-security" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <!-- <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <div class="video-box">
+      <iframe width="912" height="516" src="https://www.youtube.com/embed/tfDfCGERYPE?si=W5RpV0S9nqJWwdrn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div> 
+  <style type="text/css">
+    .video-box{
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 56.25%;
+    }
+    .video-box iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    @media screen and (max-width:800px){
+      .video-box{
+            width:100%;
+      }
+    }
+    </style>
+      <h2 class="subtitle has-text-centered">
+        An end-to-end practical real-world attack scenario where an attacker can steal a user's chat history when the user visit a malicious designed website via OpenAI GPT4.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Large Language Model (LLM) systems are inherently compositional, with individual LLM serving as the core foundation with additional layers of objects such as plugins, sandbox, and so on. Along with the great potential, there are also increasing concerns over the security of such probabilistic intelligent systems. However, existing studies on LLM security often focus on individual LLM, but without examining the ecosystem through the lens of LLM systems with other objects (e.g., Frontend, Webtool, Sandbox, and so on). In this paper, we systematically analyze the security of LLM systems, instead of focusing on the individual LLMs. To do so, we build on top of the information flow and formulate the security of LLM systems as constraints on the alignment of the information flow within LLM and between LLM and other objects. Based on this construction and the unique probabilistic nature of LLM, the attack surface of the LLM system can be decomposed into three key components: (1) multi-layer security analysis, (2) analysis of the existence of constraints, and (3) analysis of the robustness of these constraints. To ground this new attack surface, we propose a multi-layer and multi-step approach and apply it to the state-of-art LLM system, OpenAI GPT4. Our investigation exposes several security issues, not just within the LLM model itself but also in its integration with other components. We found that although the OpenAI GPT4 has designed numerous safety constraints to improve its safety features, these safety constraints are still vulnerable to attackers. To further demonstrate the real-world threats of our discovered vulnerabilities, we construct an end-to-end attack where an adversary can illicitly acquire the user’s chat history, all without the need to manipulate the user’s input or gain direct access to OpenAI GPT4.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div class="item">
+        <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">
+         Compositional LLM Systems
+          </h2>
+        <h3 class="subtitle is-size-4-tablet has-text-left pr-4 pl-4 pt-3 pb-3">
+        <p style="text-align:center;">
+          <br><br>
+          <img src="static/images/newpipe.png"  style="width: 100%; height: 75%"/>
+        </p>
+        </h3>
+     </div>
+    </div>
+  </div>
+  </section>
+
+
+
+
+
+  <section class="hero is-small">
+    <div class="hero-body">
+      <div class="container">
+        <div class="item">
+          <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">
+            Three Security Analysis Principles
+            </h2>
+          <h3 class="subtitle is-size-4-tablet has-text-left pr-4 pl-4 pt-3 pb-3">
+            <p style="text-align:center;">
+              <br><br>
+              <img src="static/images/principles.png"  style="width: 100%; height: 75%"/>
+          </h3>
+       </div>
+      </div>
+    </div>
+    </section>
+
+
+    <section class="hero is-small">
+      <div class="hero-body">
+        <div class="container">
+          <div class="item">
+            <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">
+              Vulnerability Analysis over the Action of the LLM
+              </h2>
+            <h3 class="subtitle is-size-4-tablet has-text-left pr-4 pl-4 pt-3 pb-3">
+            <p style="text-align:center;">
+              <br><br>
+              <img src="static/images/test1.png"  style="width: 100%; height: 100%"/>
+            </p>
+            </h3>
+         </div>
+        </div>
+      </div>
+      </section>
+
+
+      <section class="hero is-small">
+        <div class="hero-body">
+          <div class="container">
+            <div class="item">
+              <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">
+                Vulnerabilities in Interaction between Facilities and the LLM: Sandbox
+                </h2>
+              <h3 class="subtitle is-size-4-tablet has-text-left pr-4 pl-4 pt-3 pb-3">
+              <p style="text-align:center;">
+                <br><br>
+                <img src="static/images/test2.png"  style="width: 100%; height: 100%"/>
+              </p>
+              </h3>
+           </div>
+          </div>
+        </div>
+        </section>
+
+
+        <section class="hero is-small">
+          <div class="hero-body">
+            <div class="container">
+              <div class="item">
+                <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">
+                  Vulnerabilities in Interaction between Facilities and the LLM: Web Tools
+                  </h2>
+                <h3 class="subtitle is-size-4-tablet has-text-left pr-4 pl-4 pt-3 pb-3">
+                <p style="text-align:center;">
+                  <br><br>
+                  <img src="static/images/test3.png"  style="width: 100%; height: 100%"/>
+                </p>
+                </h3>
+             </div>
+            </div>
+          </div>
+          </section>
+
+          <section class="hero is-small">
+            <div class="hero-body">
+              <div class="container">
+                <div class="item">
+                  <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">
+                    Vulnerabilities in Interaction between Facilities and the LLM: Frontend (1)
+                    </h2>
+                  <h3 class="subtitle is-size-4-tablet has-text-left pr-4 pl-4 pt-3 pb-3">
+                  <p style="text-align:center;">
+                    <br><br>
+                    <img src="static/images/test4.png"  style="width: 100%; height: 100%"/>
+                  </p>
+                  </h3>
+               </div>
+              </div>
+            </div>
+            </section>
+
+            <section class="hero is-small">
+              <div class="hero-body">
+                <div class="container">
+                  <div class="item">
+                    <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">
+                      Vulnerabilities in Interaction between Facilities and the LLM: Frontend (2)
+                      </h2>
+                    <h3 class="subtitle is-size-4-tablet has-text-left pr-4 pl-4 pt-3 pb-3">
+                    <p style="text-align:center;">
+                      <br><br>
+                      <img src="static/images/test5.png"  style="width: 100%; height: 100%"/>
+                    </p>
+                    </h3>
+                 </div>
+                </div>
+              </div>
+              </section>
+
+
+            <section class="hero is-small">
+              <div class="hero-body">
+                <div class="container">
+                  <div class="item">
+                    <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">
+                      An  End2End Practical Attack Scenario
+                      </h2>
+                    <h3 class="subtitle is-size-4-tablet has-text-left pr-4 pl-4 pt-3 pb-3">
+                    <p style="text-align:center;">
+                      <br><br>
+                      <img src="static/images/test6.png"  style="width: 100%; height: 100%"/>
+                    </p>
+                    </h3>
+                 </div>
+                </div>
+              </div>
+              </section>
+<!-- Image carousel -->
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">
+          Vulnerability Analysis over the Action of the LLM
+          </h2>
+          <h2 class="subtitle has-text-centered">
+          <b>Real Case I: LLM Outputs External Image Links with Markdown Format. </b> 
+          </h2>
+        <img  src="static/images/markdown1.png" alt="MY ALT TEXT"/>
+        <h2>
+          <b>Existence of the constraint over action of the LLM:</b>  
+          Preventing the Output of Image Link with MarkDown Format. <br>
+        </h2>
+        <h2 class="subtitle">
+          <b>Existence of the constraint over action of the LLM:</b>  
+          Preventing the Output of Image Link with MarkDown Format. <br>
+        To verify the existence of this constraint in OpenAI GPT4, as shown in above Figure, when we directly request OpenAI GPT4 to output an external 
+        markdown image link, GPT4 will <b>directly refuse this request
+        and state that it cannot output any external image links</b>. This
+        result shows that OpenAI has recognized this vulnerability
+        and has <b>implemented some constraints over the action of
+          LLM to prevent it from generating external image links</b>.
+        </h2>
+      </div>
+      <div class="item">
+        <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">
+          Vulnerability Analysis over the Action of the LLM
+          </h2>
+          <h2 class="subtitle has-text-centered">
+            <b>Real Case I: LLM Outputs External Image Links with Markdown Format. </b> 
+            </h2>
+        <img src="static/images/markdown2.png" style="width: 80%; height: 60%" alt="MY ALT TEXT"/>
+        <h2 class="subtitle ">
+          <b>Robustness of the constraint:</b>  
+          To evaluate the robustness of this constraint in the adversarial environment, we design two attack methods.
+          <b>The first method we employed to bypass this constraint</b>
+          involves designing a multifunctional “jailbreak” prompt. This
+          prompt is strategically crafted with dual objectives: (1) an
+          explicit, benign goal, such as solving a puzzle, and (2) an implicit, “malicious” goal, which aims to execute a “malicious”
+          instruction to compel the LLM to generate an image link in
+          markdown format. 
+          As a result, OpenAI GPT4 ultimately output text containing the image link in markdown format.
+          <b>This showcases the constraint is not robust!</b>
+        </h2>
+      </div>
+
+      <div class="item">
+        <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">
+          Vulnerability Analysis over the Action of the LLM
+          </h2>
+          <h2 class="subtitle has-text-centered">
+            <b>Real Case I: LLM Outputs External Image Links with Markdown Format. </b> 
+            </h2>
+        <img src="static/images/externalrender.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle">
+          <b>Robustness of the constraint:</b>  
+          The second method we employed to bypass this constraint
+          involves designing a multifunctional “jailbreak” prompt. This
+          prompt is strategically crafted with dual objectives: (1) an
+          explicit, benign goal, such as solving a puzzle, and (2) an implicit, “malicious” goal, which aims to execute a “malicious”
+          instruction to compel the LLM to generate an image link in
+          markdown format. 
+          As a result, OpenAI GPT4 ultimately output text containing the image link in markdown format.
+          <b>This showcases the constraint is not robust!</b>
+        </h2>
+     </div>
+
+  </div>
+</div>
+</div>
+</section> -->
+<!-- End image carousel -->
+
+
+
+
+<!-- Youtube video -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+
+      <h2 class="title is-3">Video Presentation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video">
+ 
+            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End youtube video -->
+
+
+<!-- Video carousel -->
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Another Carousel</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay controls muted loop height="100%">
+   
+            <source src="static/videos/carousel1.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video2">
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+
+            <source src="static/videos/carousel2.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video3" autoplay controls muted loop height="100%">\
+  
+            <source src="static/videos/carousel3.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>  -->
+<!-- End video carousel
+
+
+
+
+
+
+<-- Paper poster -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section> -->
+<!-- End paper poster -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>BibTex Code Here</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
